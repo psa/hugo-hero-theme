@@ -179,6 +179,15 @@ Add your google analytics ID to the `config.toml`
 
 You can edit and add main menu links in the `config.toml` under `[[menu.main]]`
 
+### Favicon
+
+Favicon defaults to `svg`. If you want to use a different file type:
+```
+// config.toml
+[params]
+  favicon_extension="png"
+```
+
 ## Extras
 
 ### License
@@ -186,7 +195,7 @@ You can edit and add main menu links in the `config.toml` under `[[menu.main]]`
 - Don't create ports or new versions of this theme without asking me
 - You can't re-distribute or re-sell this theme as your own template
 
-### Credits 
+### Credits
 
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
 - Stock images by Unsplash - https://unsplash.com/
